@@ -1,0 +1,26 @@
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-seedling"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Poliklinik</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Dashboard -->
+    <li class="nav-item <?php echo e(request()->routeIs('dokter.dashboard') ? 'active' : ''); ?>">
+        <a class="nav-link" href="<?php echo e(route('dokter.dashboard')); ?>">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+        </a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+</ul>
+<?php /**PATH C:\xampp\htdocs\poliklinik-udinus-main\resources\views/dokter/includes/sidebar.blade.php ENDPATH**/ ?>
